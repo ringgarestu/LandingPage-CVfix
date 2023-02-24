@@ -24,7 +24,8 @@ body {
     list-style-type: none;
     display: inline-block;
     margin: 0 auto;
-    padding: 0px 20px;
+    padding-left: 10px;
+    padding-right: 60px;
 }
 
 .nav-list li a {
@@ -66,7 +67,11 @@ button {
     font-family: 'Domine', sans-serif;
     cursor: pointer;
     outline: none;
+}
 
+button a {
+    text-decoration: none;
+    color: black;
 }
 
 button:hover {
@@ -76,8 +81,6 @@ button:hover {
 button:active {
     background-color: #e9e3e3;
 }
-
-/* button::after {} */
 
 article img {
     padding-bottom: 5px;
@@ -90,6 +93,8 @@ article img {
     box-shadow: 5px 2px 7px 1px;
     margin-top: 70px;
     margin-left: 25px;
+    /* float: right; */
+    position: static;
 }
 
 .jumbotron h1 p {
@@ -111,9 +116,17 @@ article img {
     width: 50%;
     display: flex;
     justify-content: center;
-    /* gap: 10px; */
+    /* float: right; */
 }
 
 .image-wrap a {
     margin-inline: 10px;
+}
+
+p {
+    font-family: 'Domine', sans-serif;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
 }
